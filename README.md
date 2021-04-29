@@ -1,7 +1,7 @@
 # trybe-projects
 Este repositório contém todos os projetos desenvolvidos por mim enquanto estudava na Trybe 🚀
 
-# Fundamentos - Desenvolvimento Web ✅
+## Fundamentos do desenvolvimento Web ✅
  - HTML & CSS
  - Pixel Art
  - To do list
@@ -10,6 +10,6 @@ Este repositório contém todos os projetos desenvolvidos por mim enquanto estud
  - Zoo functions
  - Carrinho de Compras
  - Jest Assíncrono e Mocking
-# Desenvolvimento Front-end ⏳
+## Desenvolvimento Front-end ⏳
   - Movie Cards Library
  
