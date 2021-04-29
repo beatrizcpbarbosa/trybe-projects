@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html>
+  <head lang="pt-br">
+      <title> Cópia do Facebook </title>
+      <meta charset="UFT-8"> 
+      <meta name="viewport" content="width=device-width" initial-scale=1.0 maximum-scale=1.0> 
+      <link rel="stylesheet" type="text/css" href="style.css"> 			 
+  </head>
+  <body>
+    <header class="top-bar">
+
+        <div id="imgHeader">
+          <img src="imgs/facebook-logo.png" class="facebook-logo" alt="logo do facebook">
+        </div>
+
+        <form action="" method="get" class="facebook-login">
+
+          <div class="form-group">
+            <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+            <input type="text" name="user-email-phone" id="user-email-phone">
+          </div>
+
+          <div class="form-group">
+            <label for="user-password-label" id="user-password-label">Senha</label>
+            <input type="password" name="user-password-label" id="user-password">
+          </div>
+
+          <div class="form-control">
+            <button id="button-login">Entrar</button>
+          </div>  
+        </form>
+
+    </header>
+
+    <main class="main-content">
+
+        <div class="left-content">
+            <p id="facebook-slogan">O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que fazem parte <br> da sua vida.</p>
+            <img src="imgs/networking.png" alt="imagem networking" id="facebook-networking">
+        </div>
+
+        <div class="right-content">
+            <h1 id="titleCadastro">Abra uma conta</h1>
+            <h3 class="quick-easy">É rápido e fácil.</h3>
+
+            <form>
+
+              <div class="flex-row">
+                <input type='text' placeholder='Nome' name='firstname' value='' class='input-text' id='firstname'>
+                <input type='text' placeholder='Sobrenome' name='lastname' value='' class='input-text' id='lastname'>
+              </div>
+
+                <input type='text' placeholder='Celular ou email' name='phone_email' value='' class='input-text tam' id='phone-email'>
+                <input type='password' placeholder='Nova senha' name='password' value='' class='input-text tam'>
+
+                <label for='birthdate' id="label-birthdate">Data de nascimento</label>
+                <input type='text' placeholder='dd/mm/aaaa' name='birthdate' value='' class='input-text' id='birthdate'>
+
+                <label for='gender' id="label-gender">Gênero</label>
+                <input type='radio' name='gender' id="feminino" class="input-radio" value="Feminino">
+                <label for='feminino'>Feminino</label>
+                <input type='radio' name='gender' id="masculino" class="input-radio" value="Masculino">
+                <label for='masculino'>Masculino</label>
+                <input type='radio' name='gender' id="personalizado" class="input-radio" value="Personalizado">
+                <label for='personalizado'>Personalizado</label>
+            
+              <div id='gender-container'>
+                  <input type="text" name="gender-custom" id="gender-custom" placeholder="Gênero (opcional)">
+              </div>
+
+              <div id="error-message"></div>
+
+              <button type="submit" id="facebook-register">Cadastre-se</button>
+            </form>
+        </div>
+      </main>
+    
+
+    <script src="script.js"></script>
+  <body>
+</html> 
