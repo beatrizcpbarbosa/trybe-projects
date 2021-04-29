@@ -2,7 +2,8 @@
 Este repositório contém todos os projetos desenvolvidos por mim enquanto estudava na Trybe 🚀
 
 ## Fundamentos do desenvolvimento Web ✅
- - HTML & CSS
+ - Lessons Learned
+ - Playground Functions
  - Pixel Art
  - To do list
  - Facebook Singup
