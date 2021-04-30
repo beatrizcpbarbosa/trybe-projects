@@ -74,8 +74,10 @@ header h1 {
 }
 
 .item {
-  border: 1px solid rgb(7, 7, 7);
-  border-radius: 5px;
+  /* border: 1px solid rgb(7, 7, 7); */
+  box-shadow: 10px 10px 30px rgb(219, 219, 219);
+  background-color: white;
+  /* border-radius: 5px; */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

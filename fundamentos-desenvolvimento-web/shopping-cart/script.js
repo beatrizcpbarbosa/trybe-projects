@@ -33,21 +33,52 @@ function createProductItemElement({ id, title, thumbnail }) {
 }
 
 // pegando o produto com api do mercado livre
-function getProduct() {
-    return new Promise((resolve) => {
-    let produtos;
+// function getProduct(product) {
+//     return new Promise((resolve) => {
+//     let produtos;
 
-    fetch('https://api.mercadolibre.com/sites/MLB/search?q=computador')
-    .then((response) => response.json())
-    .then((data) => {
+//     fetch(`https://api.mercadolibre.com/sites/MLB/search?q=${product}`)
+//     .then((response) => response.json())
+//     .then((data) => {
+//       document.querySelector('.loading').remove(); // tira a frase "carregando" da tela quando a api termina a requisição requisito 7
+//       // console.log(data);
+//       produtos = data.results;
+//       produtos.forEach((produto) => createProductItemElement(produto)); 
+//       resolve();
+//     }); 
+//   });  
+// }
+
+// // criando input de pesquisa 
+// function getInputValue() {
+//   // return new Promisse ((resolve) => {
+//     const pesquisa = document.querySelector('#pesquisa-produto');
+//     const btnPesquisa = document.querySelector('#btn-pesquisa');
+//     btnPesquisa.addEventListener('click', getProduct(pesquisa.value));
+//   //   resolve();
+//   // }) 
+// }
+
+function getProduct() {
+  return new Promise((resolve) => {
+    let produtos;
+    const pesquisa = document.querySelector('#pesquisa-produto');
+    const btnPesquisa = document.querySelector('#btn-pesquisa');
+    btnPesquisa.addEventListener('click', () => {
+      fetch(`https://api.mercadolibre.com/sites/MLB/search?q=${pesquisa.value}`)
+      .then((response) => response.json())
+      .then((data) => {
       document.querySelector('.loading').remove(); // tira a frase "carregando" da tela quando a api termina a requisição requisito 7
-      // console.log(data);
       produtos = data.results;
-      produtos.forEach((produto) => createProductItemElement(produto)); 
+      produtos.forEach((produto) => createProductItemElement(produto)); //chamo cada produto na função createProdutcIten
       resolve();
-    }); 
-  });  
+      }); 
+    });  
+  });
 }
+
+
+// fim do input de pesquisa
 // fim de Crie uma listagem de produtos
 
 // carrinho de compras
@@ -80,6 +111,7 @@ function apagarCart() {
   const btnApagarCart = document.querySelector('.empty-cart');
   btnApagarCart.addEventListener('click', () => {
     document.querySelector(ol).innerHTML = '';
+    document.querySelector('.total-price').innerHTML = 0;
   });
 }
 
@@ -168,6 +200,7 @@ window.onload = function onload() {
       } 
     };
 
+    // getInputValue();
     execute();
     carregarItens(); 
 };
