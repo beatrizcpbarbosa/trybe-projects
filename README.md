@@ -1,5 +1,5 @@
 # trybe-projects
-Este repositório contém todos os projetos desenvolvidos por mim enquanto estudava na Trybe 🚀
+Este repositório contém todos os projetos desenvolvidos por mim enquanto estudo na Trybe 🚀
 
 ## Fundamentos do desenvolvimento Web ✅
  - Lessons Learned
