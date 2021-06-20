@@ -1,5 +1,5 @@
 # trybe-projects
-Este repositório contém todos os projetos desenvolvidos por mim enquanto estudava na Trybe 🚀
+Este repositório contém todos os projetos desenvolvidos por mim enquanto estudo na Trybe 🚀
 
 ## Fundamentos do desenvolvimento Web ✅
  - Lessons Learned
@@ -13,4 +13,6 @@ Este repositório contém todos os projetos desenvolvidos por mim enquanto estud
  - Jest Assíncrono e Mocking
 ## Desenvolvimento Front-end ⏳
   - Movie Cards Library
+  - Movie Cards Library Stateful
+  - Movie Card Library Crud
  
