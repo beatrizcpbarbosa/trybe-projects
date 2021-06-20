@@ -2,10 +2,7 @@
 Aqui contém todos os projetos desenvolvidos por mim enquanto estudo na Trybe 🚀
 Este repositório é separado em 4 pastas principais. Cada pasta é sobre um módulo. Basicamente, todo o conteúdo é separado nesses módulos. Os módulos são:
 
-Fundamentos (fundações)
-Front-end
-Processo interno
-Ciências da Computação (Ciência da Computação)
+Fundamentos (fundações), Front-end, Processo interno, Ciências da Computação (Ciência da Computação)
 
 ## Fundamentos do desenvolvimento Web ✅
  - Lessons Learned
