@@ -1,5 +1,11 @@
-# trybe-projects
-Este repositório contém todos os projetos desenvolvidos por mim enquanto estudo na Trybe 🚀
+# trybe-projects 🚀
+Aqui contém todos os projetos desenvolvidos por mim enquanto estudo na Trybe 🚀
+Este repositório é separado em 4 pastas principais. Cada pasta é sobre um módulo. Basicamente, todo o conteúdo é separado nesses módulos. Os módulos são:
+
+Fundamentos (fundações)
+Front-end
+Processo interno
+Ciências da Computação (Ciência da Computação)
 
 ## Fundamentos do desenvolvimento Web ✅
  - Lessons Learned
@@ -15,4 +21,6 @@ Este repositório contém todos os projetos desenvolvidos por mim enquanto estud
   - Movie Cards Library
   - Movie Cards Library Stateful
   - Movie Card Library Crud
+  - Front-end Online Store
+  - Testes React RTL
  
