@@ -1,10 +1,9 @@
 # trybe-projects 🚀
-Aqui contém todos os projetos desenvolvidos por mim enquanto estudo na Trybe 🚀
-Este repositório é separado em 4 pastas principais. Cada pasta é sobre um módulo. Basicamente, todo o conteúdo é separado nesses módulos. Os módulos são:
+Here contains all the projects developed by me while studying at [Trybe](https://www.betrybe.com) 🚀 This repository is separated into 4 main folders. Each folder is about a module. Basically, all content is separated in these modules. The modules are:
 
-Fundamentos (fundações), Front-end, Processo interno, Ciências da Computação (Ciência da Computação)
+Basics of web development, Front-end, Back-end, Computer Science
 
-## Fundamentos do desenvolvimento Web ✅
+## Basics of web development ✅
  - Lessons Learned
  - Playground Functions
  - Pixel Art
@@ -14,10 +13,11 @@ Fundamentos (fundações), Front-end, Processo interno, Ciências da Computaçã
  - Zoo functions
  - Carrinho de Compras
  - Jest Assíncrono e Mocking
-## Desenvolvimento Front-end ⏳
-  - Movie Cards Library
-  - Movie Cards Library Stateful
-  - Movie Card Library Crud
-  - Front-end Online Store
-  - Testes React RTL
-  - Trybe Wallet (esse projeto tem seu proprio repositorio nesse [link](https://github.com/beatrizcpbarbosa/trybewallet))
+
+## Front-end ⏳
+ - Movie Cards Library
+ - Movie Cards Library Stateful
+ - Movie Card Library Crud
+ - Front-end Online Store
+ - Testes React RTL
+ - Trybe Wallet (this project is in its own repository [clik here](https://github.com/beatrizcpbarbosa/trybewallet))
