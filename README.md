@@ -20,4 +20,4 @@ Fundamentos (fundações), Front-end, Processo interno, Ciências da Computaçã
   - Movie Card Library Crud
   - Front-end Online Store
   - Testes React RTL
- 
+  - Trybe Wallet ( esse projeto tem seu proprio repositorio nesse [link](https://github.com/beatrizcpbarbosa/trybewallet) 
