@@ -21,3 +21,5 @@ Basics of web development, Front-end, Back-end, Computer Science
  - Front-end Online Store
  - Testes React RTL
  - Trybe Wallet (this project is in its own repository [clik here](https://github.com/beatrizcpbarbosa/trybewallet))
+ - Trivia Game
+ - Star Wars Search
